@@ -1,1 +1,69 @@
-/*CSS GLOBAL*/
+/*Importando a fonte*/
+@import url('https://fonts.googleapis.com/css2?familyPoppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*Declaração de variáveis*/
+
+:root {
+    /*Cores*/
+    --color-dark: #002440;
+    --color-primary: #0073CE;
+    --color-secondary: #00A5F0;
+    --color-tertiary: #00D7D7;
+    --color-compound: #FFC800;
+    --color-gradient: linear-gradient(99deg, #00A5F0 7.94%, #00D7D7 95.32%);
+    --color-gray-600: #33303E;
+    --color-gray-500: #4E4B59;
+    --color-gray-400: #5F5C6B;
+    --color-gray-300: #7A7786;
+    --color-gray-200: #C6C5CE;
+    --color-gray-100: #F1F0F5;
+    --color-white: #ffffff;
+
+    /*Fonte*/
+    --font-primary: 'Poppins';
+}
+
+
+
+/*Títulos e texto*/
+h1, h2, h3, h4, .paragraph1, .paragraph2, .paragraph3 {
+    color: var(--color-gray-500);
+    font-family: var(--font-primary);
+    font-style: normal;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.paragraph1, .paragraph2, .paragraph3 {
+    font-weight: 400;
+}
+
+.paragraph1 {
+    font-size: 18px;
+}
+
+.paragraph2 {
+    font-size: 16px;
+}
+
+.paragraph3 {
+    font-size: 14px;
+}
