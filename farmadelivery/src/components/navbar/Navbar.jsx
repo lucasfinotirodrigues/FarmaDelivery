@@ -1,9 +1,12 @@
 import React from 'react'
+import './../../reset.css'; 
+import './../../styles.css'; 
+
 
 function Navbar(){
     return (
         <div>
-            Navbar
+           <p> Navbar</p>
         </div>
     );
 }
