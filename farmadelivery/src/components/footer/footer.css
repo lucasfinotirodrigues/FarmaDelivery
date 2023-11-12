@@ -1,5 +1,13 @@
-.rodape {
+footer {
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    height: 94px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
 }
-
+h4 {
+    color: var(--color-white);
+}
