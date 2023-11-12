@@ -8,6 +8,7 @@
     --color-dark: #002440;
     --color-primary: #0073CE;
     --color-secondary: #00A5F0;
+    --color-secondary-opacity:#00a4f023;
     --color-tertiary: #00D7D7;
     --color-compound: #FFC800;
     --color-gradient: linear-gradient(99deg, #00A5F0 7.94%, #00D7D7 95.32%);
@@ -66,4 +67,19 @@ h4 {
 
 .paragraph3 {
     font-size: 14px;
+}
+
+/*Denifição de estilos globais*/
+* {
+    font-family: var(--font-primary);
+}
+
+.content {
+    background-color: var(--color-white);
+}
+
+.estrutura{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
