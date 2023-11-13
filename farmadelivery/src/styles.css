@@ -11,6 +11,7 @@
     --color-secondary-opacity:#00a4f023;
     --color-tertiary: #00D7D7;
     --color-compound: #FFC800;
+    --color-compound-hover: #e6b400;
     --color-gradient: linear-gradient(99deg, #00A5F0 7.94%, #00D7D7 95.32%);
     --color-gray-600: #33303E;
     --color-gray-500: #4E4B59;
@@ -39,7 +40,7 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
 }
 
@@ -82,4 +83,22 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.button {
+    cursor: pointer;
+    width: 200px;
+    height: 42px;
+    border:none;
+    border-radius: 5px;
+    background: var(--color-compound);
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 600;
+   
+}
+
+.button:hover {
+    transition: .3s;
+    background-color: var(--color-compound-hover);
 }
