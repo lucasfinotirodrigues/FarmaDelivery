@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import './../../reset.css'; 
-import './../../styles.css';
+import './../../styles.css'; 
+
+import imagem from '../../images/Logo-White.svg';
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -14,7 +16,7 @@ function Navbar() {
     <div>
       <nav className="navbar">
         <div className="info">
-          <img className='logo' src="../../images/Logo-White.png" alt="" srcset="" />
+          <img className='logo' src={imagem} alt="" srcset="" />
           <h3>FarmaDelivery</h3>
         </div>
         <ul className={`nav-list ${showMenu ? 'show' : ''}`}>
