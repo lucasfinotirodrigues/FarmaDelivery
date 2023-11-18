@@ -98,3 +98,12 @@ h4 {
     transition: .3s;
     background-color: var(--color-compound-hover);
 }
+
+@media screen and (max-width: 560px) {
+    .button {
+        width: 142px;
+        height: 28px;
+        font-size: 14px;
+        font-weight: 500;
+    }   
+}
