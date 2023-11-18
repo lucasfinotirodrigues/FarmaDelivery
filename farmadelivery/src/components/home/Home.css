@@ -1,3 +1,4 @@
+/*Primeira seção*/
 .content{
     display: flex;
     flex-direction: column;
@@ -22,6 +23,43 @@
 h2 {
     color: var(--color-white);
     padding: 0 90px;    
+}
+
+/*Segunda seção*/
+.filters {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 68px 86px 68px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    border-radius: 8px;
+    border: 2px solid var(--color-primary);
+    background: rgba(0, 115, 206, 0.10);
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-img{
+    width: 72px;
+    height: 48px;
+}
+
+.text {
+    color: var(--color-gray-700);
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /*Responsividade*/
