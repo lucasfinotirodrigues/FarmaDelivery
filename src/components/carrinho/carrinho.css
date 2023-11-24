@@ -1,0 +1,55 @@
+/*Terceira seção*/
+
+.grupo-carrinho{
+    padding: 60px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.title-carrinho{
+    padding: 60px 0 0 0;
+    color: var(--color-secondary);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.button-compra{
+    padding: 0 68px 86px 68px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.carrinho{
+    width: 148px;
+    height: 60px;
+    font-size:14px;
+}
+
+@media screen and (max-width:1024px) {
+    .carrinho {
+        justify-content: center;        
+        max-width: 1000px;
+        width: 100%;
+        font-size: 18px;
+    }
+
+   
+}
+
+@media screen and (max-width: 768px){
+    .title-carrinho{
+        font-size: 24px;
+    }
+
+    .button-compra {
+        padding: 0 32px 86px 32px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .grupo-carrinho{
+        justify-content: center;
+    }
+}
