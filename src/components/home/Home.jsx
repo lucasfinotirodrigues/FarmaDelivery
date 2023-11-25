@@ -1,6 +1,7 @@
 import React from 'react';
 import Rodape from '../footer/footer';
 import Navbar from '../navbar/Navbar';
+import { Link } from 'react-router-dom';
 
 /*Importando estilos*/
 import './Home.css';
@@ -63,7 +64,9 @@ function Home(){
             <div className='content'>
                 <div className="message">
                     <h2>"Entregamos a seu medicamento onde você<br/>estiver,  pois a sua saúde não pode esperar!"</h2>
-                    <button className='button'>Entrar</button>
+                    <button className='button-login'>                     
+                        <Link to="/login">Entrar</Link>
+                    </button>
                 </div>
             </div>
             <div className="filters">
@@ -87,7 +90,9 @@ function Home(){
                     <img className='remedio' src={analgesico.src}/>
                     <p className="preco">{analgesico.preco}</p>
                     <p className="nome">{analgesico.nome}</p>
-                    <button className='button compra'>Comprar</button>
+                    <button className='button compra'>
+                        <Link to="/compras">Comprar</Link>
+                    </button>
                     </div>
                 ))}
                 </div>
@@ -103,7 +108,9 @@ function Home(){
                     <img className='remedio' src={antiInflamatorio.src}/>
                     <p className="preco">{antiInflamatorio.preco}</p>
                     <p className="nome">{antiInflamatorio.nome}</p>
-                    <button className='button compra'>Comprar</button>
+                    <button className='button compra'>
+                        <Link to="/compras">Comprar</Link>
+                    </button>
                     </div>
                 ))}
                 </div>

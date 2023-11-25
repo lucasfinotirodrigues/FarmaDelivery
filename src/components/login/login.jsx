@@ -4,6 +4,7 @@ import './../../styles.css';
 import './login.css'
 import Rodape from '../footer/footer';
 import Navbar from '../navbar/Navbar';
+import { Link } from 'react-router-dom';
 
 /*Importando imagens*/
 import logo from '../../images/logoBlue.svg'
@@ -22,17 +23,21 @@ function Login(){
           </div>
           <div className="form-group">
             <label className='label'>E-mail</label>
-            <input type="email"/>
+            <input className="input" type="email"/>
           </div>
           <div className="form-group">
             <label className='label'>Senha</label>
-            <input type="password"/>
+            <input className="input" type="password"/>
           </div>
           <div className="text-form">
             <p className="paragraph1">Ainda não possui conta?</p>
-            <p className="paragraph2">Criar conta</p>
+            <p >                              
+              <Link to="/cadastro" className="paragraph2">Criar conta</Link>              
+            </p>
           </div>
-          <button className="button">Entrar</button>
+          <button className='button'>                     
+            <Link to="/">Entrar</Link>
+          </button>
         </div>
       </div>
       <Rodape></Rodape>
