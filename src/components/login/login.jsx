@@ -26,7 +26,7 @@ function Login(){
           </div>
           <div className="form-group">
             <label className='label'>Senha</label>
-            <input type="email"/>
+            <input type="password"/>
           </div>
           <div className="text-form">
             <p className="paragraph1">Ainda não possui conta?</p>
