@@ -74,6 +74,15 @@ h2 {
     padding: 0 68px 86px 68px;
 }
 
+.button-login {
+    width: 200px;
+    height: 42px;
+    border:none;
+    border-radius: 5px;
+    background: var(--color-compound);
+    color: var(--color-white)
+}
+
 .title{
     color: var(--color-dark);
     font-size: 24px;
@@ -119,6 +128,11 @@ h2 {
     margin-bottom: 12px;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
 /*Responsividade*/
 @media screen and (max-width: 1024px){
     h2 {
@@ -154,16 +168,19 @@ h2 {
     .grupo {
         justify-content: center;
     }
-    /* .card {
-        display: flex;
-        flex-direction: column;
-        max-width: 500px;
-        width:100%
-    } */    
+    
+    .card {
+        width: 300px;
+        height: 424px;
+    }
 }
 
 @media screen and (max-width: 480px){
     h2 {
         font-size: 18px;   
+    }
+
+    .button {
+        width: 120px;
     }
 }
