@@ -43,8 +43,9 @@
 
 @media screen and (max-width: 768px){
     .form-cadastro {
-        max-width: 300px;
-        height: 1452px
+        max-width: 284px;
+        max-height: 1452px;
+        height: 100%;
     }
 
     .group-row {
@@ -52,6 +53,6 @@
     }
 
     input {
-        width: 340px;
+        width: 320px;
     }
 }
