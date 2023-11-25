@@ -1,0 +1,53 @@
+.conteudoCompras{
+    display: flex;
+    justify-content: center;
+}
+
+.blue {
+    color: var(--color-secondary);
+    margin-bottom: 32px
+}
+
+.card-compras {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+    max-width: 704px;
+    width: 100%;
+    height: 212px;
+    border-radius: 5px;
+    border: 3px solid #D9D9D9;
+    background: var(--color-white);   
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.img{
+    width: 136px;
+    height: 160px;
+}
+
+.remedios{
+    color: var(--color-dark);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.quantidade {
+    color: var(--color-secondary);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.precos {
+    color: var(--color-dark);
+    font-size: 32px;
+    font-weight: 400;
+}
